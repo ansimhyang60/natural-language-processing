@@ -14,3 +14,16 @@ Integer Encoding ==> 단어 수치화
 2.  dense representation (밀집 벡터)
  - 사용자가 설정한 값으로 모든 단어의 벡터 차원을 맞춤
  - 실수로 표현
+
+
+ipynb lang 설명
+각각의 문자를 Unicode 숫자로 변환 
+- code_value=ord(i) #문자를 Unicode 정수로 반환
+tokenizer1 ipynb 설명
+ - 토큰화: tokenzier
+ - 품사태깅: pos_tag(tokenized)
+ - okt 형태소 분석
+ - morphs: 형태소 추출
+ - nonus: 명사 추출
+ - pos : 품사 부착
+ - phrases:어절
